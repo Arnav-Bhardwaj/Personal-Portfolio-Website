@@ -1,0 +1,198 @@
+/***-----------------------------------Style by Class--------------------***/
+
+.top-container{
+    background: rgba(18,126,129,1);
+    background: -moz-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(18,126,129,1)), color-stop(1%, rgba(18,127,130,1)), color-stop(100%, rgba(0,230,180,1)));
+    background: -webkit-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    width: 100%;
+    height: 700%;
+    -webkit-background-size: cover;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    
+}
+.col-1-2 {
+  width: 60%;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  height: 300px;
+  background-color:white;
+
+}
+
+.col-1-4 {
+    width: 20%;
+    height:350px;
+    background-color: floralwhite;
+}
+
+[class*='col-'] {
+    float: left;
+    padding-right: $pad;
+    padding-bottom: 60px;
+    
+    .grid &:last-of-type {
+     padding-right: 0;
+  }
+    
+}
+
+/***-----------------------------------Style by ID--------------------***/
+#Goals{
+    text-align: center;
+}
+
+#logo img {
+    float: left;
+    left: 129px;
+    width:43px;
+    margin-left: 17px;
+}
+
+#card-Info{
+    width: 50%;
+    height: 70%;
+    position: relative;
+    left: 27%;
+    background-color:floralwhite;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+#emailMe{
+    color: ghostwhite;
+    text-decoration: none;
+}
+#Email{
+    color:whitesmoke;
+    text-align: center
+}
+
+#Title {
+    font-size: 55px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+#Copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+    color: ghostwhite;
+    text-decoration: none;
+    
+}
+#Name, #Contact, #contactEmail{
+    text-align: center;s
+}
+
+#Quote{
+    padding-left: 26px;
+    text-align: center;
+}
+
+#target{
+    width: 200px;
+    padding-left: 50px;
+    padding-top: 50px;
+    
+}
+
+#pic-linkedin{
+    width: 50px;
+    position: relative;
+    top: 10px;
+    padding: 1px;
+    margin: auto;
+    
+}
+#other{
+   text-align: center; 
+}
+
+#checklist{
+    width: 200px;
+    padding-left: 30px; 
+    padding-top: 50px
+}
+/***-----------------------------------Style by Pesudo-Classes------------***/
+
+
+header a:hover {
+    color:#38e395;
+    text-decoration: none;
+    
+}
+#card-Info:hover {
+  box-shadow: 0 5px 9px 0 rgba(0,4,1,0.5);
+    background-color:antiquewhite;
+}
+
+/***-----------------------------------Style by Tag--------------------***/
+
+header a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+header {
+    background: #2e343d;
+    padding-top: 28px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 46px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: #666666;
+    background-color:floralwhite;
+}
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    background-color: #2e343d; 
+}
+
+.Container-foot{
+    background: #666666;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right:1px ;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}

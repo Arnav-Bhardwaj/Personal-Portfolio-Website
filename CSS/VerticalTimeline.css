@@ -1,0 +1,274 @@
+/***-----------------------------------Style by Class--------------------***/
+
+.top-container{
+   background: rgba(18,126,129,1);
+    background: -moz-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(18,126,129,1)), color-stop(1%, rgba(18,127,130,1)), color-stop(100%, rgba(0,230,180,1)));
+    background: -webkit-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    width: 100%;
+    height: 700%;
+    -webkit-background-size: cover;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    
+}
+
+
+/***-----------------------------------Style by ID--------------------***/
+#Goals{
+    text-align: center;
+}
+
+#logo img {
+    float: left;
+    left: 129px;
+    width:43px;
+    margin-left: 17px;
+}
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: #666666;
+    background-color:floralwhite;
+}
+#Title {
+    font-size: 55px;
+    padding-left: 200px;
+}
+
+#emailMe{
+    color: ghostwhite;
+    text-decoration: none;
+}
+#Email{
+    color:whitesmoke;
+    text-align: center
+}
+
+#Title {
+    font-size: 55px;
+    padding-left: 200px;
+}
+#Quote{
+    padding-left: 260px;
+}
+#Copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+    
+}
+
+/***-----------------------------------Style by Pesudo-Classes------------***/
+
+
+header a:hover {
+    color:#38e395;
+    text-decoration: none;
+    
+}
+
+/***-----------------------------------Style by Tag--------------------***/
+
+header a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+header {
+    background: #2e343d;
+    padding-top: 28px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 46px;
+}
+
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    background-color: #2e343d; 
+}
+
+.Container-foot{
+    background: #666666;
+    padding-right: 0px;
+    padding-bottom: 1px;
+    padding-left: 0px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right:1px ;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+section#Vertical-timeline {
+  width: 80%;
+  margin: 20px auto;
+  position: relative;
+  z-index: -1;
+}
+
+section#Vertical-timeline:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin: 0 0 0 -1px;
+  width: 2px;
+  height: 100%;
+  background-color: dimgray;
+}
+section#Vertical-timeline article {
+  width: 100%;
+  margin: 0 0 20px 0;
+  position: relative;
+
+}
+section#Vertical-timeline article:after {
+  content: '';
+  display: block;
+  clear: both;
+    
+}
+section#Vertical-timeline article div.inner {
+  width: 40%;
+  float: left;
+  margin: 5px 0 0 0;
+  border-radius: 6px;
+  box-shadow: 0 4px 6px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+}
+
+
+section#Vertical-timeline article div.inner span.date {
+  display: block;
+  width: 60px;
+  height: 50px;
+  padding: 5px 0;
+  position: absolute;
+ 
+  top: 0;
+  left: 50%;
+  margin: 0 0 0 -32px;
+  border-radius: 100%;
+  font-size: 12px;
+  font-weight: 900;
+  
+  text-transform: uppercase;
+  background: #25303B;
+  color: rgba(255,255,255,0.5);
+  border: 2px solid rgba(255,255,255,0.2);
+  box-shadow: 0 0 0 7px #25303B;
+}
+
+section#Vertical-timeline article div.inner span.date span {
+  display: block;
+  text-align: center;
+}
+section#Vertical-timeline article div.inner span.date span.day {
+  font-size: 10px;
+}
+section#Vertical-timeline article div.inner span.date span.month {
+  font-size: 18px;
+}
+section#Vertical-timeline article div.inner span.date span.year {
+  font-size: 10px;
+}
+section#Vertical-timeline article div.inner h2 {
+  padding: 15px;
+  margin: 0;
+  color: #fff;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  border-radius: 6px 6px 0 0;
+  position: relative;
+}
+
+section#Vertical-timeline article div.inner h2:after {
+  content: '';
+  position: absolute;
+  top: 20px;
+  right: -5px;
+   width: 10px; 
+   height: 10px;
+  -webkit-transform: rotate(-45deg);
+}
+section#Vertical-timeline article div.inner p {
+  padding: 15px;
+  margin: 0;
+  font-size: 14px;
+  background: #fff;
+  color: #656565;
+  border-radius: 0 0 6px 6px;
+}
+
+/**********************Create a colourful theme***********/
+
+section#Vertical-timeline article:nth-child(2n+2) div.inner {
+  float: right;
+}
+section#Vertical-timeline article:nth-child(2n+2) div.inner h2:after { /*adding a corner*/
+  left: -5px;
+}
+section#Vertical-timeline article:nth-child(1) div.inner h2 {
+  background: #e74c3c;
+}
+
+section#Vertical-timeline article:nth-child(1) div.inner h2:after { /*adding a corner*/
+  background: #e74c3c;
+}
+section#Vertical-timeline article:nth-child(2) div.inner h2 {
+  background: #2ecc71;
+}
+section#Vertical-timeline article:nth-child(2) div.inner h2:after { /*adding a corner*/
+  background: #2ecc71;
+}
+section#Vertical-timeline article:nth-child(3) div.inner h2 {
+  background: #e67e22;
+}
+section#Vertical-timeline article:nth-child(3) div.inner h2:after { /*adding a corner*/
+  background: #e67e22;
+}
+section#Vertical-timeline article:nth-child(4) div.inner h2 {
+  background: #1abc9c;
+}
+section#Vertical-timeline article:nth-child(4) div.inner h2:after { /*adding a corner*/
+  background: #1abc9c;
+}
+section#Vertical-timeline article:nth-child(5) div.inner h2 {
+  background: #9b59b6;
+}
+section#Vertical-timeline article:nth-child(5) div.inner h2:after { /*adding a corner*/
+  background: #9b59b6;
+}

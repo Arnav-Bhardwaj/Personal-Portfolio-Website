@@ -1,0 +1,312 @@
+/***-----------------------------------Style by Class--------------------***/
+
+.top-container{
+   background: rgba(18,126,129,1);
+    background: -moz-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(18,126,129,1)), color-stop(1%, rgba(18,127,130,1)), color-stop(100%, rgba(0,230,180,1)));
+    background: -webkit-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    width: 100%;
+    height: 700%;
+    -webkit-background-size: cover;
+    color: white;
+    padding-top: 90px;
+    padding-bottom: 70px;
+    z-index: 1;
+    
+}
+
+/******* FIX THE LENGTH AND COLOUR WHEN DONE PLACING ITEMS IN CARDS*****/
+.Card{
+    position: relative;
+    left:10px;
+    bottom:40px;
+    display: inline-block;
+    width: 200px;
+    height: 210px;
+    padding-bottom: 10px;
+    margin: 50px 0;
+    margin-top: 60px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    text-align: center;
+}
+
+.Subheading1{
+    background-color:floralwhite;
+    padding-top: 6px;
+    width: 100%;
+}
+
+.column-top { 
+  width: 15%;
+  height: 1px;
+  margin-top: 40px; 
+  background-color:#fbf1e3;
+
+}
+
+.column-right {
+  width: 15%;
+  margin-top: 40px;
+  height: 1px;
+  background-color:#fbf1e3;
+}
+.column-bottom{
+   width: 15%;
+   margin-top: 40px;
+  height: 1px;
+  background-color:#fbf1e3;
+}
+
+.column-bottom-right{
+  width: 15%;
+  margin-top: 40px;
+  height: 1px;
+  background-color:#fbf1e3; 
+}
+
+[class*='column-'] {
+    float: left;
+    padding-right: 10px;
+    padding-bottom: 250px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 9px 0 rgba(0,0,2,0.4);
+    transition: 0.3s;
+    border-radius: 5px;   
+}
+
+/***-----------------------------------Style by ID--------------------***/
+/****Skills*/
+#javaCircle, #Circle2, #Circle3, #Circle4, #Circle5, #Circle7,
+#Circle9 ,#Circle11 ,#Circle12 ,#Circle13 , #Circle14 ,#Circle15{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    bottom:180px;
+    right:60px;
+    
+}
+/*****************************************Extra space***/
+#Circle6{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    bottom:186px;
+    right:60px; 
+}
+
+#Circle8{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    bottom:172px;
+    right:60px;
+}
+
+#Circle8-1{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right:60px; 
+    bottom:340px; 
+}
+
+#Circle6-1{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right:60px; 
+    bottom:354px;
+}
+#Circle10{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right:60px; 
+    bottom:190px; 
+}
+#Circle10-1{
+     width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right:60px; 
+    bottom:378px;
+}
+
+#javaCircle2, #Circle2-1, #Circle3-1, #Circle4-1, #Circle5-1, #Circle7-1,#Circle9-1,#Circle11-1,#Circle12-1,#Circle13-1{
+    width: 300px;
+    height: 160px;
+    position: relative;
+    padding-left: 10px;
+    padding-bottom: 20px;
+    right:60px; 
+    bottom:347px;
+}
+
+
+#percent{
+    padding-top:53px;
+    position: relative;
+    bottom:50px;
+}
+
+#percent-6{
+    padding-top: 53px;
+    position: relative;
+    bottom:60px;
+}
+#percent-10{
+    padding-top: 53px;
+    position: relative;
+    bottom:70px;
+}
+
+#Goals{
+    text-align: center;
+}
+
+#logo img {
+    float: left;
+    left: 129px;
+    width:43px;
+    margin-left: 17px;
+}
+
+#Title {
+    font-size: 55px;
+    padding-left: 200px;
+}
+
+
+#emailMe{
+    color: ghostwhite;
+    text-decoration: none;
+}
+#Email{
+    color:whitesmoke;
+    text-align: center
+}
+#Skill-Extra{
+    position:relative;
+    bottom:51px;
+    left:3px;
+}
+#Skill-Extra1{
+    position:relative;
+    bottom:69px;
+    right:7px;
+}
+
+#Title {
+    font-size: 55px;
+    padding-left: 200px;
+}
+#Quote{
+    padding-left: 260px;
+}
+#Copyright{
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+    
+}
+
+/***-----------------------------------Style by Pesudo-Classes------------***/
+
+header a:hover {
+    color:#38e395;
+    text-decoration: none;
+    
+}
+.column-top:hover,.column-right:hover,.column-bottom:hover,.column-bottom-right:hover {
+    box-shadow: 2px 7px 10px 2px rgba(0,0,2,0.4); /***add some darker shade from light effect***/
+    background-color:antiquewhite;
+
+}
+/***-----------------------------------Style by Tag--------------------***/
+header{
+    z-index: 1;
+}
+h5{
+    position: relative;
+    bottom:48px;
+}
+header a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+header {
+    background: #2e343d;
+    padding-top: 28px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 46px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: #666666;
+    background-color:floralwhite;
+}
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    background-color: #2e343d; 
+}
+
+.Container-foot{
+    background:  #666666;
+    padding-bottom: 10px;
+    margin-top: 1200px;
+    width: 100%;
+}
+
+li {
+    float: left;
+    border-right:1px ;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}

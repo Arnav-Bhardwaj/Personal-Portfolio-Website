@@ -1,0 +1,167 @@
+/***-----------------------------------Style by Class--------------------***/
+
+.ContainerItems {
+    margin-top: 0px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    background-color: #2e343d; 
+}
+
+.top-container{
+    background: rgba(18,126,129,1);
+    background: -moz-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(18,126,129,1)), color-stop(1%, rgba(18,127,130,1)), color-stop(100%, rgba(0,230,180,1)));
+    background: -webkit-linear-gradient(top, rgba(18,126,129,1) 0%, rgba(18,127,130,1) 1%, rgba(0,230,180,1) 100%);
+    display: table;
+    width: 100%;
+    -webkit-background-size: cover;
+    color: white;
+}
+
+.inside-container{
+    padding-left: 10%;
+    padding-right: 5%;
+    padding-top: 21%;
+
+}
+.button {
+  display: inline-block;
+  background-color: Transparent;
+  position:relative;
+  bottom: 100px;
+  left:1000px;    
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  width: 200px;
+  transition: all 0.5s;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '»';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/***-------------------------------------Style by ID------------------***/
+
+#Name {
+    font-size: 75px;
+    position: relative;
+    bottom:140px;
+    left:60px;
+}
+#mainButton{
+    color: #FFFFFF;
+}
+
+#intro {
+    font-size: 30px;
+    position: relative;
+    bottom:140px;
+    left:60px;
+}
+
+#intro2 {
+    font-size : 23px;
+    position: relative;
+    left:60px;
+    bottom:130px;
+      
+}
+
+#more-des{
+    text-align: center;
+}
+
+#logo img {
+    float: left;
+    left: 129px;
+    width:43px;
+    margin-left: 17px;
+}
+
+/**-------------------------------------------------Styles by psuedoclass **************/
+
+header a:hover {
+    color:#38e395;
+    text-decoration: none;
+    
+}
+
+
+/***-------------------------------------------------Styles by tag *******************/
+header a {
+    color: #fff;
+    font-size: 17px;
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-decoration: none;
+}
+
+header {
+    background: #2e343d;
+    padding-top: 28px;
+    padding-right: 0px;
+    padding-bottom: 20px;
+    padding-left: 0px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+
+header nav li {
+    list-style-type: none;
+    float: left;
+    margin-left: 46px;
+}
+
+body {
+    margin: 0;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 25px;
+    color: #666666;
+    background-color:floralwhite;
+}
+
+ul{
+   list-style-type: none;
+    margin: 0;
+    padding: 0;  
+    display: block;
+    background-color: #2e343d; 
+}
+
+
+li {
+    float: left;
+    border-right:1px ;
+}
